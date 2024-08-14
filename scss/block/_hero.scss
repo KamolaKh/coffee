@@ -1,0 +1,33 @@
+.hero {
+  background-repeat: no-repeat;
+  background-image: url(/img/hero_bgi.png);
+  background-position: center;
+  padding-bottom: 123px;
+  padding-top: 10px;
+
+  &__content {
+    width: 493px;
+    margin-left: 98px;
+    margin-top: 117px;
+  }
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    color: #fefcf7;
+    margin-bottom: 32px;
+  }
+  &__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #fefcf7;
+    opacity: 0.8;
+    margin-bottom: 56px;
+  }
+  &__btn {
+    @include button;
+  }
+}

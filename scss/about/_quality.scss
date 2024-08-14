@@ -1,0 +1,42 @@
+.quality {
+  position: relative;
+  padding-bottom: 168px;
+  padding-top: 100px;
+
+  &__block {
+    background-color: #2c343e;
+    padding: 90px 85px;
+    border-radius: 20px;
+  }
+  &__content {
+    width: 540px;
+  }
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fefcf7;
+    margin-bottom: 32px;
+  }
+  &__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #fefcf7;
+    opacity: 0.8;
+  }
+  &__img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(/img/qual.jpg);
+    width: 445px;
+    height: 474px;
+    right: 31%;
+    top: 0;
+  }
+  img {
+    border-radius: 10%;
+  }
+}

@@ -1,0 +1,43 @@
+.footer {
+  padding: 40px;
+  background-color: $bgc;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__logo {
+    margin-right: 120px;
+  }
+  &__list {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    margin-right: 100px;
+  }
+
+  &__link {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 125%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #83888f;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__list1 {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+}
